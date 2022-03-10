@@ -1,0 +1,42 @@
+.quadrado{
+     position:absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #222222;
+} 
+.pizza{
+    position:relative; 
+width: 132px;
+height: 28px;
+right: 0px;
+bottom: -40px;
+top: 0px;
+}
+
+ul{
+    color:white;
+    left: 1000px;
+    position: relative;
+    top: 0px;
+    align-items:center;
+    list-style: none;
+    text-decoration: none;
+}
+.item1, .item2, .item3, .item4{
+    display: inline-block;
+    margin-left:15px;
+    position: relative;
+}
+    
+
+
+
+
+
+
+
+
+
+
