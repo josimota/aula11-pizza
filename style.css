@@ -1,33 +1,148 @@
+body{
+    background-color:  #E5E5E5;
+}
 .quadrado{
-     position:absolute;
-    width: 100%;
-    height: 100px;
-    left: 0px;
-    top: 0px;
+    position:absolute;
+    width: 89%;
+    height: 20%;
+    left: 0%;
+    top: 0%;
     background: #222222;
+    background-size: auto;
 } 
 .pizza{
     position:relative; 
-width: 132px;
-height: 28px;
-right: 0px;
-bottom: -40px;
-top: 0px;
+width: 100%;
+height: 28%;
+right: 0%;
+bottom: -40%;
+top: 10%;
 }
 
 ul{
     color:white;
-    left: 1000px;
+    left: 65%;
     position: relative;
-    top: 0px;
+    top: 0%;
     align-items:center;
     list-style: none;
     text-decoration: none;
+    width: 30%;
+    
 }
-.item1, .item2, .item3, .item4{
+.item1{
     display: inline-block;
-    margin-left:15px;
+    margin: 6px;
     position: relative;
+}
+.quadrados{
+    display: flex;
+}
+.quadrado1{
+    position: absolute;
+    width: 50%;
+    height: 299%;
+    left: 3%;
+    top: 135%;
+    border-radius: 0%;
+    display: 0%;
+    margin-right: 10%;
+}
+.texto{
+    top: -96%;
+    position: relative;
+    align-items: center;
+    right:-16%;
+}
+
+.retangulo{
+width: 40%;
+height: 28%;
+left: 60%;
+top: 60%;
+line-height: 28%;
+position: relative;
+}
+.loginho{
+position: absolute;
+width: 92%;
+height: 129%;
+left: 30%;
+top: 290%;
+}
+p{
+    position: absolute;
+width: 110.44%;
+height: 23%;
+left: 0%;
+top: 90%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 140%;
+line-height: 23%;
+
+color: #222222;
+
+
+
+}
+
+.quadrado2{
+    position: absolute;
+    width: 50%;
+    height: 299%;
+    left: 50%;
+    top: 135%;
+    border-radius: 0%;
+    display: 0%;
+    margin-right: 10%;
+
+}
+
+.lista{
+position: absolute;
+left: 50%;
+top: 200%;
+color: #222222;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 90%;
+
+
+
+}
+footer{
+    position: absolute;
+    bottom: 8px;
+    background-color: rgb(34, 34, 37);
+    width: 89%;
+    height: 25%;    
+    top: 90%;
+}
+.pizza2{
+    position:relative; 
+width: 1%;
+height: 1%;
+left: 70%;
+top: 18%;
+
+}
+.rodape{
+    top: 0%;
+    color:white;
+    right: 720px;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 79%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+   
+    
 }
     
 
